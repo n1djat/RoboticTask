@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #959bff;
+  z-index: 9;
+  nav {
+    position: relative;
+  }
+
+  a {
+    font-size: 13px;
+  }
+}
+
+main {
+  #section-a {
+    height: 100%;
+
+    .secA-bg {
+      width: 100%;
+      height: 100%;
+      background-image: url("/assets/images/banner-bg.jpg");
+      position: absolute;
+      top: 0;
+      z-index: -9;
+    }
+
+    .container {
+      align-items: end;
+
+      .secA-text {
+        width: 50%;
+        height: 100%;
+        margin-top: 250px;
+
+        h1 {
+          font-size: 60px;
+          font-weight: 300;
+          color: white;
+          letter-spacing: 3px;
+        }
+
+        p {
+          color: white;
+          font-size: 13px;
+        }
+
+        a {
+          padding: 10px 25px;
+          background-color: white;
+          color: black;
+          font-weight: 600;
+          margin-top: 20px;
+        }
+      }
+
+      .secA-img {
+        width: 50%;
+        height: 100%;
+      }
+    }
+  }
+
+  #section-b {
+    width: 100%;
+    height: 700px;
+    .secB-content {
+      width: 100%;
+      height: 100px;
+      background-color: #ffffff;
+
+      .container {
+        .container {
+          .row {
+            display: flex;
+
+            .col-12 {
+              .card {
+                .card-img {
+                  width: 100%;
+                  height: 230px;
+
+                  img {
+                    width: 40%;
+                  }
+                }
+
+                .card-body {
+                  background-color: #f9f9fe;
+
+                  a {
+                    background-color: white;
+                    cursor: pointer;
+                    color: black;
+                    font-weight: bold;
+                    font-size: 13px;
+                    width: 65%;
+                    margin: auto;
+
+                    &:hover {
+                      background-color: #c996ff;
+                      color: white;
+                      transition: all 1s;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #section-c {
+    width: 100%;
+    height: 800px;
+    background-image: url(/assets/images/feature-bg.jpg);
+    display: flex;
+    align-items: center;
+
+    .container {
+      height: 80%;
+
+      .secC-header {
+        margin: 20px;
+      }
+
+      .secC-content {
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+        .col-4 {
+          background-color: white;
+          padding: 25px;
+          border-radius: 15px;
+
+          .col-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            i {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #section-d {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .container {
+      height: 90%;
+
+      .secD-header {
+        .col-12 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .secD-content {
+        .secD-img {
+          margin-bottom: 25px;
+        }
+
+        .secD-link {
+          margin-bottom: 20px;
+          a {
+            padding: 10px;
+            background-color: #b994ff;
+            color: white;
+          }
+        }
+
+        .secD-text {
+          p {
+            color: #797979;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  height: 20%;
+  background-image: url(https://preview.colorlib.com/theme/robotics/img/footer-bg.jpg);
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .footer-text {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      width: 60%;
+      p {
+        color: white;
+        margin: 0;
+        .footer-color {
+          background-color: #8a90ff;
+        }
+      }
+    }
+
+    .social-media {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      i {
+        padding: 8px;
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+@media screen  and (max-width:992px){
+  
+  
+}

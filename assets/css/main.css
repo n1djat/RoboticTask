@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #959bff;
+  z-index: 9;
+}
+header nav {
+  position: relative;
+}
+header a {
+  font-size: 13px;
+}
+
+main #section-a {
+  height: 100%;
+}
+main #section-a .secA-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/images/banner-bg.jpg");
+  position: absolute;
+  top: 0;
+  z-index: -9;
+}
+main #section-a .container {
+  align-items: end;
+}
+main #section-a .container .secA-text {
+  width: 50%;
+  height: 100%;
+  margin-top: 250px;
+}
+main #section-a .container .secA-text h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 3px;
+}
+main #section-a .container .secA-text p {
+  color: white;
+  font-size: 13px;
+}
+main #section-a .container .secA-text a {
+  padding: 10px 25px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  margin-top: 20px;
+}
+main #section-a .container .secA-img {
+  width: 50%;
+  height: 100%;
+}
+main #section-b {
+  width: 100%;
+  height: 700px;
+}
+main #section-b .secB-content {
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+}
+main #section-b .secB-content .container .container .row {
+  display: flex;
+}
+main #section-b .secB-content .container .container .row .col-12 .card .card-img {
+  width: 100%;
+  height: 230px;
+}
+main #section-b .secB-content .container .container .row .col-12 .card .card-img img {
+  width: 40%;
+}
+main #section-b .secB-content .container .container .row .col-12 .card .card-body {
+  background-color: #f9f9fe;
+}
+main #section-b .secB-content .container .container .row .col-12 .card .card-body a {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  width: 65%;
+  margin: auto;
+}
+main #section-b .secB-content .container .container .row .col-12 .card .card-body a:hover {
+  background-color: #c996ff;
+  color: white;
+  transition: all 1s;
+}
+main #section-c {
+  width: 100%;
+  height: 800px;
+  background-image: url(/assets/images/feature-bg.jpg);
+  display: flex;
+  align-items: center;
+}
+main #section-c .container {
+  height: 80%;
+}
+main #section-c .container .secC-header {
+  margin: 20px;
+}
+main #section-c .container .secC-content {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+main #section-c .container .secC-content .col-4 {
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+main #section-c .container .secC-content .col-4 .col-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+main #section-c .container .secC-content .col-4 .col-header i {
+  font-size: 30px;
+}
+main #section-d {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+main #section-d .container {
+  height: 90%;
+}
+main #section-d .container .secD-header .col-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #section-d .container .secD-content .secD-img {
+  margin-bottom: 25px;
+}
+main #section-d .container .secD-content .secD-link {
+  margin-bottom: 20px;
+}
+main #section-d .container .secD-content .secD-link a {
+  padding: 10px;
+  background-color: #b994ff;
+  color: white;
+}
+main #section-d .container .secD-content .secD-text p {
+  color: #797979;
+}
+
+footer {
+  width: 100%;
+  height: 20%;
+  background-image: url(https://preview.colorlib.com/theme/robotics/img/footer-bg.jpg);
+}
+footer .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .footer-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+footer .container .footer-text p {
+  color: white;
+  margin: 0;
+}
+footer .container .footer-text p .footer-color {
+  background-color: #8a90ff;
+}
+footer .container .social-media {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .container .social-media i {
+  padding: 8px;
+  background-color: black;
+  color: white;
+}
